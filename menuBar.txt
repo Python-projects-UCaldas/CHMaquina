@@ -1,0 +1,6 @@
+self.retranslateUi(CH_MAQUINA)
+        self.actionSalir_del_S_O.triggered.connect(CH_MAQUINA.close)
+        self.actionEncender.triggered.connect(self.encender.click)
+        self.actionApagar.triggered.connect(self.apagar.click)
+        self.actionCargar_Programa.triggered.connect(self.abrir.click)
+        QtCore.QMetaObject.connectSlotsByName(CH_MAQUINA)
